@@ -94,6 +94,8 @@ implementation("androidx.media3:media3-ui:1.3.1")
 
 implementation("androidx.multidex:multidex:2.0.1")
 
+implementation("com.google.android.material:material:1.12.0")
+
     // Coroutines
     implementation(libs.kotlinx.coroutines.android)
 
