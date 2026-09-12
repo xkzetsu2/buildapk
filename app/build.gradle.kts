@@ -23,6 +23,7 @@ android {
         versionCode = 1
         versionName = "1.0.0"
         vectorDrawables.useSupportLibrary = true
+        multiDexEnabled = true
     }
 
     buildTypes {
@@ -90,6 +91,8 @@ dependencies {
 implementation("androidx.media3:media3-common:1.3.1")
 implementation("androidx.media3:media3-exoplayer:1.3.1")
 implementation("androidx.media3:media3-ui:1.3.1")
+
+implementation("androidx.multidex:multidex:2.0.1")
 
     // Coroutines
     implementation(libs.kotlinx.coroutines.android)
