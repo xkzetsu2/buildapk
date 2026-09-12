@@ -86,9 +86,10 @@ dependencies {
     kapt(libs.room.compiler)
 
     // Media3
-    implementation(libs.media3.media)
-    implementation(libs.media3.exoplayer)
-    implementation(libs.media3.ui)
+// Substitua temporariamente no bloco dependencies do seu app/build.gradle.kts:
+implementation("androidx.media3:media3-common:1.3.1")
+implementation("androidx.media3:media3-exoplayer:1.3.1")
+implementation("androidx.media3:media3-ui:1.3.1")
 
     // Coroutines
     implementation(libs.kotlinx.coroutines.android)
